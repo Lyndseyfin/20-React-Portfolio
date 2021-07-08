@@ -5,6 +5,7 @@ class AboutMe extends Component {
     render(){
         return(
             <div className="div">
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"></link>
             <h2 className="head">ABOUT ME</h2>
               <h4 className="h4">
                   <br></br>
@@ -24,6 +25,7 @@ Server Side Development (Node.js, Express, MERN)
     </p>
 </h4>
 </div>
+
     )
   }
 }

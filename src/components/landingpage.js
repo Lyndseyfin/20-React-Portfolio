@@ -6,10 +6,10 @@ class Landing extends Component {
   render() {
     return(
       <div style={{width: '100%', margin: 'auto'}}>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"></link>
         <Grid className="landing-grid">
           <Cell col={12}>
-           
-              />
+        
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
 

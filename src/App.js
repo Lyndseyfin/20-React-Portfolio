@@ -8,6 +8,10 @@ class App extends Component {
   render() {
     return (
       <div className="demo-big-content">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"></link>
+        <style>
+                font-family: 'Open Sans Condensed', sans-serif;
+            </style>
     <Layout>
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">MyPortfolio</Link>} scroll>
             <Navigation>
