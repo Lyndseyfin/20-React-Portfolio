@@ -6,15 +6,16 @@ class Landing extends Component {
   render() {
     return(
       <div style={{width: '100%', margin: 'auto'}}>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"></link>
         <Grid className="landing-grid">
           <Cell col={12}>
         
             <div className="banner-text">
+              <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet"/>
+
               <h1>Lyndsey Finamore </h1>
 
 
-          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+          <p>HTML/CSS | Bootstrap | JavaScript | React | NodeJS | Express | MongoDB</p>
 
         <div className="social-links">
 

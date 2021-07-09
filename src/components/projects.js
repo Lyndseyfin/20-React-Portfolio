@@ -333,7 +333,7 @@ Code Quiz
           <Cell col={12} style={{ margin: "auto" }}>
             <Tabs>
               <Tab style={{ fontSize: "14px", fontWeight: "bold" }}>
-                My Projects
+                Check out my latest projects
               </Tab>
             </Tabs>
           </Cell>

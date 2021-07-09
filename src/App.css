@@ -1,10 +1,14 @@
 .header-color {
-  background: url("https://i.pinimg.com/originals/22/3d/f1/223df15db915620d5cdd73b27f105764.png");
+  background: url("https://i.pinimg.com/originals/6a/27/02/6a270258db85200785f8dd4d70c0ae0c.png");
 
+}
+.nav {
+  color:black;
 }
 
 .landing-grid {
-  background: url("https://www.housedecorinteriors.co.uk/UserFiles/wallpapers/9_harlequin/196_delphine_wallpapers/HAR110197_z.jpg");
+  /* background: url("https://www.ilovewallpaper.co.uk/images/nina-plain-wallpaper-cream-11353117-p5294-13781_image.jpg"); */
+  background: url("https://wallpaperbat.com/img/137063-white-background-wallpaper-luxury-hd-bright-wallpaper-download.jpg");
   text-align: center;
   position: fixed;
   top: 0;
@@ -84,10 +88,16 @@
 }
 
 .banner-text h1 {
-  font-family: monospace;
-  font-size: 60px;
-  font-weight: bold;
-  color:black;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 45px;
+  font-weight: bolder;
+  color:darkslategrey;
+  height: 50%;
+  width: 75%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner-text hr {
@@ -97,9 +107,17 @@
 }
 
 .banner-text p {
-  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  color: black;
   font-size: 20px;
   padding: 1em;
+  font-weight: bolder;
+  height: 70%;
+  width: 75%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-links {
@@ -110,7 +128,7 @@
 }
 
 .social-links i {
-  color: white;
+  color:black;
   font-size: 5em;
   padding: 8px;
 }

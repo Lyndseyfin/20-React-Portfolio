@@ -8,12 +8,8 @@ class App extends Component {
   render() {
     return (
       <div className="demo-big-content">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"></link>
-        <style>
-                font-family: 'Open Sans Condensed', sans-serif;
-            </style>
     <Layout>
-        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">MyPortfolio</Link>} scroll>
+        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">MyPortfolio</Link>} scroll>
             <Navigation>
             <Link to="/aboutme">About Me</Link>
               <Link to="/projects">Projects</Link>
@@ -23,7 +19,7 @@ class App extends Component {
         </Header>
         <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">MyPortfolio</Link>}>
             <Navigation>
-              <Link to="/aboutme">About Me</Link>
+              <Link to="/aboutme" >About Me</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/resume">Resume</Link>
               <Link to="/contact">Contact</Link>
