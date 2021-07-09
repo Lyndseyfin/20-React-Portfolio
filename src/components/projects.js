@@ -37,7 +37,7 @@ class Projects extends Component {
                     width: "600px",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    backgroundImage: "url(/images/recipes.png",
+                    backgroundImage: "url(/images/lyricf.png",
                     color: "black",
                   }}
                 >
@@ -56,7 +56,7 @@ class Projects extends Component {
                   </Button>
                                 {" "}
                   <Button
-                    href="https://xzengeric.github.io/Project1/project1.html"
+                    href="https://lyndseyfin.github.io/Lyric-finder/"
                     target="_blank"
                     colored
                   >
@@ -85,7 +85,7 @@ class Projects extends Component {
                     width: "600px",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    backgroundImage: "url(/images/project-2.png",
+                    backgroundImage: "url(/images/dateable.png",
                     color: "black",
                   }}
                 >
@@ -129,7 +129,7 @@ class Projects extends Component {
                     width: "600px",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    backgroundImage: "url(/images/Capture-3.PNG",
+                    backgroundImage: "url(/images/wt.jpg",
                     color: "black",
                    
                   }}
@@ -175,7 +175,7 @@ Workout Tracker               </CardText>
                     width: "600px",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    backgroundImage: "url(/images/codeQuiz.PNG",
+                    backgroundImage: "url(/images/bt.jpg",
                     color: "black",
                   }}
                 >
@@ -220,7 +220,7 @@ PWA Budget Tracker
                     width: "600px",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    backgroundImage: "url(/images/password.PNG",
+                    backgroundImage: "url(/images/tb.png",
                     color: "black",
                   }}
                 >
@@ -263,7 +263,7 @@ PWA Budget Tracker
                     width: "600px",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    backgroundImage: "url(/images/WeatherCapture.PNG",
+                    backgroundImage: "url(/images/codequiz2.png",
                     color: "black",
                   }}
                 >
@@ -288,7 +288,7 @@ Code Quiz
                   </Button>
                                 {" "}
                   <Button
-                    href="https://github.com/Lyndseyfin/04-Code-Quiz"
+                    href="https://lyndseyfin.github.io/04-Code-Quiz/"
                     target="_blank"
                     colored
                   >

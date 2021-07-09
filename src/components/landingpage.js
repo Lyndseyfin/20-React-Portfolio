@@ -11,9 +11,8 @@ class Landing extends Component {
           <Cell col={12}>
         
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>Lyndsey Finamore </h1>
 
-            <hr/>
 
           <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
 
