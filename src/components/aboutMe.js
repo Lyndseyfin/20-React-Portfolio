@@ -6,26 +6,37 @@ class AboutMe extends Component {
   render() {
     return (
       <div className="div">
-        <link
-          href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
-          rel="stylesheet"
-        ></link>
-        <h2 className="head">CA Native, CO living</h2>
-        <p className="h3">
-         Hey! I'm Lyndsey, nice to meet you.I'm currently finishing up a fullstack flex program and am an aspiring front end web developer. I live
-          in Denver, CO with my amazing husband, beautiful daughter and
-          incredibly lazy dog. 
-        </p>
-        <div>
-          <CardTitle
-            style={{
-              height: "400px",
-              width: "600px",
-              backgroundRepeat: "no-repeat",
-              backgroundImage: "url(/images/theo.jpg",
-              color: "black",
-            }}
-          ></CardTitle>
+        <div className="bg_image">
+          <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
+            rel="stylesheet"
+          ></link>
+          <div className="head">
+            <br></br>
+            <br></br>
+            <h2>Hey! I'm Lyndsey, nice to meet you.</h2>
+            <br></br>
+            <br></br>
+            <p className="h3">
+              I'm a former HR Representative and an aspiring front end web
+              developer. I'm currently finishing up a fullstack flex program
+              through University of Denver Coding Bootcamp and graduate in July,
+              2021. I live in Denver, CO with my amazing husband, beautiful
+              daughter and incredibly lazy dog.
+            </p>
+            <CardTitle
+              style={{
+                height: "300px",
+                width: "320px",
+                backgroundRepeat: "no-repeat",
+                backgroundImage: "url(/images/theo.jpg",
+                color: "black",
+                float: "right",
+                borderRadius: "50%",
+                display: "flex",
+              }}
+            ></CardTitle>
+          </div>
         </div>
       </div>
     );

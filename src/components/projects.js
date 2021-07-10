@@ -25,8 +25,7 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div className="projects-grid" style={{ width: "80%", margin: "auto"  }}>
-         
+        <div className="projects-grid" style={{ width: "80%", margin: "auto" }}>
           {/*Project #1*/}
           <Grid>
             <Cell col={4}>
@@ -40,11 +39,9 @@ class Projects extends Component {
                     backgroundImage: "url(/images/lyricf.png",
                     color: "black",
                   }}
-                >
-               
-                </CardTitle>
-                <CardText style={{whiteSpace: 'nowrap'}}>
-                Lyric Finder
+                ></CardTitle>
+                <CardText style={{ whiteSpace: "nowrap" }}>
+                  Lyric Finder
                 </CardText>
                 <CardActions border>
                   <Button
@@ -53,8 +50,7 @@ class Projects extends Component {
                     colored
                   >
                     GitHub
-                  </Button>
-                                {" "}
+                  </Button>{" "}
                   <Button
                     href="https://lyndseyfin.github.io/Lyric-finder/"
                     target="_blank"
@@ -62,7 +58,6 @@ class Projects extends Component {
                   >
                     Deployment
                   </Button>
-                               
                 </CardActions>
 
                 <CardMenu style={{ color: "#fff" }}>
@@ -71,14 +66,10 @@ class Projects extends Component {
               </Card>
             </Cell>
 
-
-
-                        {/*Project #2*/}
+            {/*Project #2*/}
 
             <Cell col={4}>
               <Card shadow={0} className="card">
-
-
                 <CardTitle
                   style={{
                     height: "400px",
@@ -88,21 +79,16 @@ class Projects extends Component {
                     backgroundImage: "url(/images/dateable.png",
                     color: "black",
                   }}
-                >
-                 
-                </CardTitle>
-                <CardText>
-                  Dateable
-                </CardText>
+                ></CardTitle>
+                <CardText>Dateable</CardText>
                 <CardActions border>
-                <Button
+                  <Button
                     href="https://github.com/Lyndseyfin/project-2"
                     target="_blank"
                     colored
                   >
                     GitHub
-                  </Button>
-                                {" "}
+                  </Button>{" "}
                   <Button
                     href="https://project-2-dates.herokuapp.com/home"
                     target="_blank"
@@ -117,9 +103,6 @@ class Projects extends Component {
               </Card>
             </Cell>
 
-
-
-
             {/*Project #3*/}
             <Cell col={4}>
               <Card shadow={0} className="card">
@@ -131,13 +114,9 @@ class Projects extends Component {
                     backgroundRepeat: "no-repeat",
                     backgroundImage: "url(/images/wt.jpg",
                     color: "black",
-                   
                   }}
-                >
-                  
-                </CardTitle>
-                <CardText>
-Workout Tracker               </CardText>
+                ></CardTitle>
+                <CardText>Workout Tracker </CardText>
                 <CardActions border>
                   <Button
                     href="https://github.com/Lyndseyfin/18-Workout-Tracker"
@@ -145,8 +124,7 @@ Workout Tracker               </CardText>
                     colored
                   >
                     GitHub
-                  </Button>
-                                {" "}
+                  </Button>{" "}
                   <Button
                     href="https://safe-ridge-92206.herokuapp.com/exercise?id=60d3d6c2e3040800154206b7"
                     target="_blank"
@@ -154,7 +132,6 @@ Workout Tracker               </CardText>
                   >
                     Deployment
                   </Button>
-                               
                 </CardActions>
 
                 <CardMenu style={{ color: "#fff" }}>
@@ -162,8 +139,6 @@ Workout Tracker               </CardText>
                 </CardMenu>
               </Card>
             </Cell>
-
-
 
             {/*Project #4*/}
 
@@ -178,12 +153,8 @@ Workout Tracker               </CardText>
                     backgroundImage: "url(/images/bt.jpg",
                     color: "black",
                   }}
-                >
-                  
-                </CardTitle>
-                <CardText>
-PWA Budget Tracker 
-                </CardText>
+                ></CardTitle>
+                <CardText>PWA Budget Tracker</CardText>
                 <CardActions border>
                   <Button
                     href="https://github.com/Lyndseyfin/-19-PWA-Online-Offline-Budget-Trackers"
@@ -191,8 +162,7 @@ PWA Budget Tracker
                     colored
                   >
                     GitHub
-                  </Button>
-                                {" "}
+                  </Button>{" "}
                   <Button
                     href="https://fierce-tor-51491.herokuapp.com/"
                     target="_blank"
@@ -200,7 +170,6 @@ PWA Budget Tracker
                   >
                     Deployment
                   </Button>
-                               
                 </CardActions>
 
                 <CardMenu style={{ color: "#fff" }}>
@@ -208,7 +177,6 @@ PWA Budget Tracker
                 </CardMenu>
               </Card>
             </Cell>
-
 
             {/* Project 5*/}
 
@@ -223,12 +191,8 @@ PWA Budget Tracker
                     backgroundImage: "url(/images/tb.png",
                     color: "black",
                   }}
-                >
-                  
-                </CardTitle>
-                <CardText>
-                 MVC Tech Blog
-                </CardText>
+                ></CardTitle>
+                <CardText>MVC Tech Blog</CardText>
                 <CardActions border>
                   <Button
                     href="https://github.com/Lyndseyfin/14-MVC-Tech-Blog"
@@ -236,8 +200,7 @@ PWA Budget Tracker
                     colored
                   >
                     GitHub
-                  </Button>
-                                {" "}
+                  </Button>{" "}
                   <Button
                     href="https://immense-castle-80286.herokuapp.com/"
                     target="_blank"
@@ -245,7 +208,6 @@ PWA Budget Tracker
                   >
                     Deployment
                   </Button>
-                               
                 </CardActions>
 
                 <CardMenu style={{ color: "#fff" }}>
@@ -254,8 +216,8 @@ PWA Budget Tracker
               </Card>
             </Cell>
 
-{/* Project # 6 */}
-<Cell col={4}>
+            {/* Project # 6 */}
+            <Cell col={4}>
               <Card shadow={0} className="card">
                 <CardTitle
                   style={{
@@ -266,27 +228,16 @@ PWA Budget Tracker
                     backgroundImage: "url(/images/codequiz2.png",
                     color: "black",
                   }}
-                >
-                  
-                </CardTitle>
-                <CardText>
-Code Quiz
-                </CardText>
+                ></CardTitle>
+                <CardText>Code Quiz</CardText>
                 <CardActions border>
                   <Button
-
-
-
-
-
-
                     href="https://github.com/Lyndseyfin/04-Code-Quiz"
                     target="_blank"
                     colored
                   >
                     GitHub
-                  </Button>
-                                {" "}
+                  </Button>{" "}
                   <Button
                     href="https://lyndseyfin.github.io/04-Code-Quiz/"
                     target="_blank"
@@ -294,7 +245,6 @@ Code Quiz
                   >
                     Deployment
                   </Button>
-                               
                 </CardActions>
 
                 <CardMenu style={{ color: "#fff" }}>
@@ -303,26 +253,19 @@ Code Quiz
               </Card>
             </Cell>
           </Grid>
-
-
         </div>
       );
-    } 
-    
-    else if (this.state.activeTab === 1) {
+    } else if (this.state.activeTab === 1) {
       return (
         <div>
           <Grid>
             <Cell
               col={12}
               style={{ justifyContent: "center", display: "flex" }}
-            >
-            </Cell>
+            ></Cell>
           </Grid>
         </div>
       );
-      
-
     }
   }
 
@@ -338,8 +281,6 @@ Code Quiz
             </Tabs>
           </Cell>
         </Grid>
-
-
 
         <section>
           <Grid>
