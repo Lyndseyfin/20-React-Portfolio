@@ -17,12 +17,12 @@ class AboutMe extends Component {
             <h2>Hey! I'm Lyndsey, nice to meet you.</h2>
             <br></br>
             <br></br>
-            <p className="h3">
+            <p className="h3" style={{fontSize:"20px", color:"black"}}>
               I'm a former HR Representative and an aspiring front end web
               developer. I'm currently finishing up a fullstack flex program
-              through University of Denver Coding Bootcamp and graduate in July,
-              2021. I live in Denver, CO with my amazing husband, beautiful
-              daughter and incredibly lazy dog.
+              through University of Denver Coding Bootcamp and due to graduate in July,
+              2021. As a CA native ready for a change, I decided to move to Denver, CO where I was fortunate enough to have met my amazing husband, we now share a beautiful
+              one year old daughter and an incredibly lazy dog.
             </p>
             <CardTitle
               style={{

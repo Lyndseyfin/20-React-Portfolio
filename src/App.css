@@ -2,14 +2,6 @@
   background: url("https://i.pinimg.com/originals/6a/27/02/6a270258db85200785f8dd4d70c0ae0c.png");
 
 }
-.nav {
-  color:black;
-}
-
-h2 {
-font-size: 75px;
-font-family: 'Julius Sans One', sans-serif;
-}
 
 .bg_image {
   background-image: url('https://cdn.wallpapersafari.com/40/22/m3XAlx.jpg');
@@ -34,6 +26,7 @@ font-family: 'Julius Sans One', sans-serif;
 .projects-grid {
   display: flex;
   background: url("https://www.housedecorinteriors.co.uk/UserFiles/wallpapers/9_harlequin/196_delphine_wallpapers/HAR110197_z.jpg");
+  background: cover;
 }
 
 /* Resume Page css */
