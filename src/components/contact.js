@@ -22,9 +22,10 @@ class Contact extends Component {
             <hr/>
 
             <div className="contact-list">
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"></link>
               <List>
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                  <ListItemContent style={{fontSize: '30px'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
                     720.201.5989
                   </ListItemContent>

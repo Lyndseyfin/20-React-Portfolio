@@ -45,17 +45,17 @@
   justify-content: center;
   width: 80%;
   height: 550px;
-  background: white;
+  background: url("https://cdn.wallpapersafari.com/38/36/CktPgo.jpg");
   color: black;
   margin-bottom: 20px;
 }
 
 .contact-grid h2 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 .contact-grid p {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-weight: bold;
 }
 
