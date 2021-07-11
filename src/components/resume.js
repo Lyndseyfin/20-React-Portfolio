@@ -11,10 +11,6 @@ class Resume extends Component {
 
             <h2 style={{ paddingTop: "2em" }}>Lyndsey Finamore</h2>
             <h4 style={{ color: "grey" }}>Full Stack Web Developer</h4>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "60%" }} />
-            <p>
-              
-            </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
             <p>Denver, CO</p>
@@ -35,6 +31,7 @@ class Resume extends Component {
               <li>Databases (MySQL, MongoDB) </li>
               <li>Deployment (Heroku, Git, Netlify)</li>
               <li>Server Side Development (Node.js, Express, MERN)</li>
+              <li><a href="https://docs.google.com/document/d/16xH2FfX81THHqUEAmrl4KvAcyRyDCXaR0xzh8aY0Ln8/edit#heading=h.wpez1ig1vpm5">My Resume</a></li>
             </ul>
           </Cell>
         </Grid>
