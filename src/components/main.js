@@ -6,6 +6,7 @@ import AboutMe from './aboutme';
 import Contact from './contact';
 import Projects from './projects';
 import Resume from './resume';
+import Footer from './footer';
 
 
 const Main = () => (
@@ -15,7 +16,10 @@ const Main = () => (
     <Route path="/contact" component={Contact} />
     <Route path="/projects" component={Projects} />
     <Route path="/resume" component={Resume} />
+    <Route path="/footer" component={Footer} />
   </Switch>
 )
+
+
 
 export default Main;

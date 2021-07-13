@@ -1,15 +1,21 @@
 .header-color {
   background: url("https://i.pinimg.com/originals/6a/27/02/6a270258db85200785f8dd4d70c0ae0c.png");
+  font-family: 'Julius Sans One', sans-serif;
+  color: black;
+  font-weight: bolder;
+}
 
+.h2 {
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 .bg_image {
   background-image: url('https://cdn.wallpapersafari.com/40/22/m3XAlx.jpg');
   background-size: cover;
   height: 100vh;
-  color: #f5f5f5;
   background-repeat: no-repeat;
   background-position: bottom cover;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 .landing-grid {
@@ -29,7 +35,7 @@
   background: cover;
 }
 
-/* Resume Page css */
+
 .resume-right-col {
   background: #27221F;
   color: white;
@@ -87,6 +93,7 @@ fieldset {
 .avatar-img {
   height: 250px;
   padding-top: 5em;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 .banner-text {

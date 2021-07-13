@@ -31,5 +31,3 @@ export default function Contact() {
     </fieldset>
   );
 }
-
-// export default Contact;
