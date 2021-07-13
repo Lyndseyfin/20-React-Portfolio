@@ -6,9 +6,9 @@ class Resume extends Component {
     return (
       <div>
         <Grid>
+        <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet"/>
           <Cell col={4}>
             <div style={{ textAlign: "center" }}></div>
-
             <h2 style={{ paddingTop: "2em" }}>Lyndsey Finamore</h2>
             <h4 style={{ color: "grey" }}>Full Stack Web Developer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />

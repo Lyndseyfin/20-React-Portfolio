@@ -43,6 +43,28 @@
     margin-left: auto;
     display: flex;
 }
+.form {
+  margin: 50px;
+}
+
+.formcontainer {
+  border: solid;
+  border-radius: 20px;
+  width: 30%;
+  background: white;
+  padding: 25px;
+}
+
+@media (max-width: 901px) {
+  #previousSearch {
+    max-height: 152px;
+  }
+}
+
+.button {
+  margin: 10px;
+}
+
 
 /* contact page css */
 
