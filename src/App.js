@@ -5,6 +5,7 @@ import Main from "./components/main";
 import { Link } from "react-router-dom";
 import Footer from "./components/footer";
 
+
 class App extends Component {
   render() {
     return (
@@ -44,13 +45,14 @@ class App extends Component {
           </Drawer>
           <Content>
             <div className="page-content" />
-            <Main />
-            <Footer />
-          </Content>
-        </Layout>
-      </div>
-    );
-  }
+            <Main/>
+        </Content>
+        <Footer/>
+    </Layout>
+</div>
+    )
+  };
 }
+
 
 export default App;

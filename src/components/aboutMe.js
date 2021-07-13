@@ -7,8 +7,11 @@ class AboutMe extends Component {
     return (
       <div className="div">
         <div className="bg_image">
-        <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet"/>
-          <div className="head"  style={{fontSize:"20px", color:"black"}}>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
+            rel="stylesheet"
+          ></link>
+          <div className="head">
             <br></br>
             <br></br>
             <h2>Hey! I'm Lyndsey, nice to meet you.</h2>
