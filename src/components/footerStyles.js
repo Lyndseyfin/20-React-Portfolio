@@ -22,7 +22,7 @@ export const Container = styled.div`
 `;
 
 export const Column = styled.div`
-  display: flex;
+  display: flex;git 
   flex-direction: column;
   text-align: center;
   margin-left: 60px;
